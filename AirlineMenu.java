@@ -12,9 +12,9 @@ import java.io.*;
 
 public class AirlineMenu {
 
-	public static void main (String [] args) throws IOException{
+    public static void main (String [] args) throws IOException{
 
-	String city = "";
+    String city = "";
     String cityX = "";
     String typeOfFlight = "";
     int option_Selected = 0;
@@ -29,9 +29,9 @@ public class AirlineMenu {
     while (true) {
       
 	    // Welcome message
-	    System.out.println("\nWELCOME TO MEJIA AIRLINES!");
+	    System.out.println("\nWELCOME TO ROJAS AIRLINES!");
 	    System.out.println("Please select a choice below [1 - 5]: ");
-	    System.out.println("  1. Add Flight\n" + "  2. View Trip\n" + "  3. Manage Trip\n" + "  4. Checkout\n" + "  5. Exit Mejia Airlines");
+	    System.out.println("  1. Add Flight\n" + "  2. View Trip\n" + "  3. Manage Trip\n" + "  4. Checkout\n" + "  5. Exit ROJAS Airlines");
 	      
 	    Scanner user_input = new Scanner(System.in); // Scanner for user input
 	    System.out.print(">> ");
@@ -158,8 +158,8 @@ public class AirlineMenu {
 	    } 
 	    
 	    else if (option_Selected == 5) {
-	        System.out.println("Thank you for using Mejia Airlines.");
-	        System.out.println("Stay Safe! Stay Hydrated! Happy Coding!");
+	        System.out.println("Thank you for using Rojas Airlines.");
+	        System.out.println("Stay Safe! Stay Hydrated!");
 	        System.exit(0);
 	    } 
 
